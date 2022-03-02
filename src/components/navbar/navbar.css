@@ -1,0 +1,67 @@
+/* try to organize css alphabetically */
+
+/* width: 100% goes beyond the screen width */
+/* thus, need box-sizing: border-box; */
+
+.navbar-root-container {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.btn {
+  background-color: #282828;
+  border-radius: 10px;
+  border-width: 0px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.link {
+  color: #d7af5f;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 16px;
+  text-decoration: none;
+}
+.link:hover {
+  color: #d7875f;
+}
+
+/* the following is for the profile section of the navbar */
+
+.profile-link {
+  text-decoration: none;
+}
+
+.profile {
+  margin: 10px;
+  display: flex;
+  text-decoration: none;
+}
+
+.profile-pic {
+  border-radius: 10px;
+  border-width: 4px;
+  border-color: #5fafd7;
+  border-style: solid;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  height: 50px;
+  width: 50px;
+}
+
+.logo {
+  margin-top: 38px;
+  margin-left: 4px;
+  color: #5fafd7;
+  font-weight: bold;
+  font-size: 18px;
+}
