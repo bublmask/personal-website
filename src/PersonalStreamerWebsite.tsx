@@ -4,6 +4,9 @@ import { SocialIcon } from 'react-social-icons';
 import NavBar from './components/navbar/NavBar';
 import './psw.css';
 
+// TODO: although you've uploaded the build folder (from running npm run build) onto the netlify app, you haven't connected your GitHub
+// connecting the GitHub allows you the deployed build to update when there is a push to the remote repo
+
 function PersonalStreamerWebsite() {
   return (
     <div className="psw-root-container">
@@ -35,7 +38,10 @@ function PersonalStreamerWebsite() {
           ⚪️ Fan Emoji: 😶‍🌫️ <br />
         </div>
         <br />
-        <SocialIcon url="https://twitter.com/bublmask" />
+        <div className="social-media-icons-container">
+          <SocialIcon className="social-media-icons" url="https://twitter.com/bublmask" />
+          <SocialIcon url="https://github.com/bublmask" />
+        </div>
       </div>
       {/*<div className="psw-page-container">
         <div>is there something here?</div>
