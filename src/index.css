@@ -1,10 +1,10 @@
 html {
   background-color: white;
 }
-html:before {
+html::before {
   background-color: white;
 }
-html:after {
+html::after {
   background-color: white;
 }
 
