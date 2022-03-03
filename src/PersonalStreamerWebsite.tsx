@@ -6,6 +6,8 @@ import './psw.css';
 
 // TODO: although you've uploaded the build folder (from running npm run build) onto the netlify app, you haven't connected your GitHub
 // connecting the GitHub allows you the deployed build to update when there is a push to the remote repo
+//
+// FINISHED: needed to update netlify to have CI=false npm run build (the command prevents the build from not deploying when there are warnings)
 
 function PersonalStreamerWebsite() {
   return (
