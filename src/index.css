@@ -1,6 +1,12 @@
 html {
   background-color: white;
 }
+html:before {
+  background-color: white;
+}
+html:after {
+  background-color: white;
+}
 
 body {
   margin: 0;
